@@ -11,7 +11,12 @@ class _LoginFormState extends State<LoginForm> {
   @override
   Widget build(BuildContext context) {
     return Column(
-
+      children: [
+        const TextField(),
+        const TextField(),
+        const TextField(),
+        ElevatedButton(onPressed: () {}, child: const Text('Sign in'))
+      ],
     );
   }
 }
